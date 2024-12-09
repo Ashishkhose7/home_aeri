@@ -2,7 +2,7 @@
     <div>
      <!-- Footer Section -->
   <footer class="footer">
-    <div class="w-80 md:container mx-auto grid grid-cols-1 md:grid-cols-4 gap-5 py-8">
+    <div class="container w-[80%] grid grid-cols-1 md:grid-cols-4 gap-5 py-8">
       <!-- Left Section -->
       <div class="footer-logo text-left md:text-left text-lg">
         <img src="https://www.aeri.com/wp-content/uploads/2021/02/aeri-logo-dark.png" alt="AERI Logo" class=" md:mx-0 h-16">
