@@ -684,39 +684,39 @@ onMounted(() => {
       // slidesPerGroup: 2,
     });
 
-    // const swiper = new Swiper(".swiper-container", {
-    //   slidesPerView: 2.5,
-    //   loopedSlides: 4,
-    //   spaceBetween: 10,
-    //   centeredSlides: true,
-    //   loop: true,
-    //   autoplay: {
-    //     delay: 3000,
-    //     disableOnInteraction: true,
-    //   },
-    //   breakpoints: {
-    //     // Mobile Screens
-    //     0: {
-    //       slidesPerView: 1, // Show 1 slide on screens smaller than 640px
-    //       spaceBetween: 0,
-    //     },
-    //     // Tablet Screens
-    //     640: {
-    //       slidesPerView: 2.5, // Show 2 slides on screens between 640px and 1024px
-    //       spaceBetween: 10,
-    //     },
-    //     // Larger Screens
-    //     1024: {
-    //       slidesPerView: 2.5, // Maintain the existing configuration for larger screens
-    //       spaceBetween: -70,
-    //     },
-    //   },
-    //   pagination: {
-    //     el: ".swiper-pagination",
-    //     clickable: true,
-    //   },
-    //   slidesPerGroup: 2,
-    // });
+    const swiper = new Swiper(".swiper-container", {
+      slidesPerView: 2.5,
+      loopedSlides: 4,
+      spaceBetween: 10,
+      centeredSlides: true,
+      loop: true,
+      autoplay: {
+        delay: 3000,
+        disableOnInteraction: true,
+      },
+      breakpoints: {
+        // Mobile Screens
+        0: {
+          slidesPerView: 1, // Show 1 slide on screens smaller than 640px
+          spaceBetween: 0,
+        },
+        // Tablet Screens
+        640: {
+          slidesPerView: 2.5, // Show 2 slides on screens between 640px and 1024px
+          spaceBetween: 10,
+        },
+        // Larger Screens
+        1024: {
+          slidesPerView: 2.5, // Maintain the existing configuration for larger screens
+          spaceBetween: -70,
+        },
+      },
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      slidesPerGroup: 2,
+    });
   }
 });
 </script>
